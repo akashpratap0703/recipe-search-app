@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* .search-bar {
+  margin: 20px auto;
+} */
+
+.search-input {
+  padding: 10px;
+  font-size: 18px;
+  width: 50%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* .search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+} */
+
+.search-icon {
+  padding: 10px;
+  margin-left: -40px; /* To position the icon inside the input box */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.search-icon:hover {
+  color: #0056b3;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  
+}
+.heading-wrapper {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  margin-bottom: 20px;
+}
+
+.back-button {
+  color: black;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Adds space between the back button and the heading */
+}
+
+.back-button svg {
+  margin-right: 8px; /* Adds space between the arrow and the text */
+}
+
+.back-button:hover {
+  color: #0056b3;
+}
+
+.recipe-card {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recipe-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.recipe-details {
+  text-align: center;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.recipe-details img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.recipe-details ul,
+.recipe-details ol {
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.recipe-meta {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-meta p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 20px;
+  color: black;
+  text-transform: capitalize;
+  display: inline-block;
+  display: inline-block;
+  font-weight: bold;
+}
